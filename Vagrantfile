@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
       :ssh_port => '2233'
     },
     {
-      :hostname => "fileserver",
+      :hostname => "file01",
       :box => "generic/alpine318",
       :box_version=> "4.3.12",
       :ip => "192.168.56.204",
