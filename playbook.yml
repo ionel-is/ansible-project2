@@ -1,0 +1,12 @@
+---
+- hosts: webservers
+  become: yes
+  vars: 
+    http_port: 8000
+    https_port: 4443
+    html_welcome_msg: "Welcome to the Ansible Web Server"
+  tasks:
+    - name: ensure Apache is at the latest version
+      apk:
+        name: apache2
+        state: latest
