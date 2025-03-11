@@ -42,7 +42,7 @@ Vagrant.configure("2") do |config|
       :hostname => "file01",
       :box => "generic/alpine318",
       :box_version=> "4.3.12",
-      :ip => "192.168.56.204",
+      :ip => "192.168.56.205",
       :ssh_port => '2234'
     }
 
