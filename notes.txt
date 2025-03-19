@@ -3,3 +3,8 @@
 rc-service apache2 status
 service apache2 status
 rc-service --list
+apk update
+apk upgrade
+apk add apache2
+apk add python3
+apk add openssh
